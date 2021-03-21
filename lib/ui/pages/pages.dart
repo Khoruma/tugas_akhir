@@ -9,15 +9,22 @@ import 'package:tugas_akhir/models/models.dart';
 import 'package:tugas_akhir/services/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tugas_akhir/shared/shared.dart';
+// import 'dart:io';
+// import 'dart:convert';
+// import 'package:image_picker/image_picker.dart';
+// import 'package:path/path.dart';
+// import 'package:async/async.dart';
+// import 'package:http/http.dart' as http;
+// import 'package:flutter_image_compress/flutter_image_compress.dart';
 
 part 'sign_in_page.dart';
 part 'main_page.dart';
 part 'wrapper.dart';
 part 'splash_page.dart';
 part 'account_confirmation_page.dart';
-part 'artikel_page.dart';
+part 'camera_page.dart';
+part 'article_page.dart';
 part 'gallery_page.dart';
 part 'profile_page.dart';
 part 'sign_up_page.dart';
 part 'tambah_dataset_page.dart';
-

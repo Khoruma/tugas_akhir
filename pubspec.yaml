@@ -32,10 +32,23 @@ dependencies:
   image_picker: ^0.6.4
   material_design_icons_flutter: ^4.0.5045
   provider: ^4.0.4
+  shadow: ^0.1.5
+  http: ^0.12.2
+  flutter_icons: ^1.1.0
+  flutter_image_compress: ^0.7.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/logo.png"
+  image_path_android: "assets/logo.png"
+  adaptive_icon_background: "assets/logo.png"
+  adaptive_icon_foreground: "assets/logo.png"
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

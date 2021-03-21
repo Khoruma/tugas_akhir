@@ -1,18 +1,18 @@
 part of 'pages.dart';
 
-class GalleryPage extends StatefulWidget {
+class ArticlePage extends StatefulWidget {
   @override
-  _GalleryPageState createState() => _GalleryPageState();
+  _ArticlePageState createState() => _ArticlePageState();
 }
 
-class _GalleryPageState extends State<GalleryPage> {
+class _ArticlePageState extends State<ArticlePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [Text('Gallery')],
+          children: [Text('Article')],
         ),
       ),
     );
