@@ -68,7 +68,7 @@ class _MainPageState extends State<MainPage> {
                     minWidth: 40,
                     onPressed: () {
                       setState(() {
-                        currentScreen = TambahDatasetPage();
+                        currentScreen = GalleryPage();
                         currentTab = 1;
                       });
                     },

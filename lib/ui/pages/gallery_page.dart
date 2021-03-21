@@ -12,7 +12,7 @@ class _GalleryPageState extends State<GalleryPage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [Text('Gallery')],
+          children: <Widget>[],
         ),
       ),
     );

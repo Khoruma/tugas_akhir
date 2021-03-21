@@ -39,3 +39,33 @@ class OnAccountConfirmationPage extends PageState {
   @override
   List<Object> get props => [];
 }
+
+class OnArticlePage extends PageState {
+  @override
+  List<Object> get props => [];
+}
+
+class OnCameraPage extends PageState {
+  @override
+  List<Object> get props => [];
+}
+
+class OnGalleryPage extends PageState {
+  @override
+  List<Object> get props => [];
+}
+
+class OnProfilePage extends PageState {
+  @override
+  List<Object> get props => [];
+}
+
+class OnEditProfilePage extends PageState {
+  @override
+  List<Object> get props => [];
+}
+
+class OnTambahDatasetPage extends PageState {
+  @override
+  List<Object> get props => [];
+}

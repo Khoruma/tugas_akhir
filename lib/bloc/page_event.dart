@@ -34,3 +34,33 @@ class GoToAccountConfirmationPage extends PageEvent {
   @override
   List<Object> get props => [];
 }
+
+class GoToArticlePage extends PageEvent {
+  @override
+  List<Object> get props => [];
+}
+
+class GoToGalleryPage extends PageEvent {
+  @override
+  List<Object> get props => [];
+}
+
+class GoToCameraPage extends PageEvent {
+  @override
+  List<Object> get props => [];
+}
+
+class GoToTambahDatasetPage extends PageEvent {
+  @override
+  List<Object> get props => [];
+}
+
+class GoToProfilePage extends PageEvent {
+  @override
+  List<Object> get props => [];
+}
+
+class GoToEditProfilePage extends PageEvent {
+  @override
+  List<Object> get props => [];
+}

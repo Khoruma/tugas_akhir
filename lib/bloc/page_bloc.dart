@@ -25,6 +25,18 @@ class PageBloc extends Bloc<PageEvent, PageState> {
       yield OnRegistrationPage(event.registrationData);
     } else if (event is GoToAccountConfirmationPage) {
       yield OnAccountConfirmationPage(event.registrationData);
+    } else if (event is GoToArticlePage) {
+      yield OnArticlePage();
+    } else if (event is GoToCameraPage) {
+      yield OnCameraPage();
+    } else if (event is GoToGalleryPage) {
+      yield OnGalleryPage();
+    } else if (event is GoToProfilePage) {
+      yield OnProfilePage();
+    } else if (event is GoToTambahDatasetPage) {
+      yield OnTambahDatasetPage();
+    } else if (event is GoToEditProfilePage) {
+      yield OnEditProfilePage();
     }
   }
 }
